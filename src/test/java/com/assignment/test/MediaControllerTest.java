@@ -42,7 +42,7 @@ public class MediaControllerTest {
 
 	@SuppressWarnings("null")
 	@Test
-	public void firstControllerTest() throws JsonParseException, JsonMappingException, IOException {
+	public void mediaControllerTest() throws JsonParseException, JsonMappingException, IOException {
 		Videos video = new Videos();
 		List<Entries> entryList = new ArrayList<Entries>();
 		List<Media> mediaList = new ArrayList<Media>();
