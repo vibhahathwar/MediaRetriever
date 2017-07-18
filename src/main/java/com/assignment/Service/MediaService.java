@@ -31,16 +31,16 @@ public class MediaService implements MediaServiceInterface {
 		for (int i = 0; i < videos.getEntryCount(); i++) {
 			entryList = videos.getEntries();
 			mediaList = entryList.get(i).getMedia();
-			if (!(filter.equals(null)) && filter.equals(MediaConstant.CENSORING)
-					&& entryList.get(i).getPeg$contentClassification().equals(MediaConstant.CONTENTCLASSIFICATION)) {
+			if (!(" ".equals(filter)) && MediaConstant.CENSORING.equals(filter)
+					&& MediaConstant.CONTENTCLASSIFICATION.equals(entryList.get(i).getPeg$contentClassification())) {
 				for (j = 0; j < mediaList.size(); j++) {
-					if (!(level.equals(null)) && level.equals(MediaConstant.CENSOREDLEVEL)) {
+					if (!(" ".equals(level)) && MediaConstant.CENSOREDLEVEL.equals(level)) {
 						if (!(mediaList.get(j).getGuid().endsWith("C"))) {
 							mediaList.remove(j);
 						}
 
 					}
-					if (!(level.equals(null)) && level.equals(MediaConstant.UNCENSOREDLEVEL)) {
+					if (!(" ".equals(level)) && MediaConstant.UNCENSOREDLEVEL.equals(level)) {
 						if ((mediaList.get(j).getGuid().endsWith("C"))) {
 							mediaList.remove(j);
 						}

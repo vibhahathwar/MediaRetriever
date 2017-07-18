@@ -1,5 +1,4 @@
 com/assignment/App.class
-com/assignment/Provider/ContentProvider$1.class
 com/assignment/Provider/ContentProvider.class
 com/assignment/Service/MediaServiceInterface.class
 com/assignment/Model/Media.class
