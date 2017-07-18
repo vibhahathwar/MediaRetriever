@@ -16,11 +16,12 @@ public class ContentProvider {
 	Logger logger = LoggerFactory.getLogger(ContentProvider.class);
 
 	public Videos getProviderDetails() {
+		String url = "http://feed.entertainment.tv.theplatform.eu/f/hGKjSC/peg_dev_dynamic2_testing/42759720403,29216808163,24706088272,33829928299";
 		logger.info("inside get provider details method");
 		RestTemplate restTemplate = new RestTemplate();
 		restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
 		Videos videos = restTemplate.getForObject(
-				"http://feed.entertainment.tv.theplatform.eu/f/hGKjSC/peg_dev_dynamic2_testing/42759720403,29216808163,24706088272,33829928299",
+				url,
 				Videos.class);;
 		return videos;
 	}

@@ -43,25 +43,25 @@ public class MediaControllerTest {
 	@SuppressWarnings("null")
 	@Test
 	public void firstControllerTest() throws JsonParseException, JsonMappingException, IOException {
-		Videos vd = new Videos();
-		List<Entries> en = new ArrayList<Entries>();
-		List<Media> me = new ArrayList<Media>();
-		Media m = new Media();
-		m.setGuid("123c");
-		me.add(m);
-		Entries e = new Entries();
-		e.setPeg$contentClassification("censored");
-		e.setMedia(me);
-		en.add(e);
-		vd.setEntryCount(1l);
-		vd.setEntries(en);
+		Videos video = new Videos();
+		List<Entries> entryList = new ArrayList<Entries>();
+		List<Media> mediaList = new ArrayList<Media>();
+		Media media = new Media();
+		media.setGuid("123c");
+		mediaList.add(media);
+		Entries entry = new Entries();
+		entry.setPeg$contentClassification("censored");
+		entry.setMedia(mediaList);
+		entryList.add(entry);
+		video.setEntryCount(1l);
+		video.setEntries(entryList);
 
-		Mockito.when(contentProvider.getProviderDetails()).thenReturn(vd);
-		Mockito.when(mediaService.filterMedia("censoring", "censored", vd)).thenReturn(vd);
+		Mockito.when(contentProvider.getProviderDetails()).thenReturn(video);
+		Mockito.when(mediaService.filterMedia("censoring", "censored", video)).thenReturn(video);
 
-		Videos v = mediacontroller.mediaDataRetriever("censoring", "censored");
+		Videos testVideo = mediacontroller.mediaDataRetriever("censoring", "censored");
 
-		assertEquals("123c", v.getEntries().get(0).getMedia().get(0).getGuid());
+		assertEquals("123c", testVideo.getEntries().get(0).getMedia().get(0).getGuid());
 
 	}
 }
