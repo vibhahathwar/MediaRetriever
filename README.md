@@ -11,7 +11,7 @@ How to run:
 
 1) Copy retrievmedia-0.0.1-SNAPSHOT.jar from the target folder.
 2) execute jar file in terminal "java -jar retrievmedia-0.0.1-SNAPSHOT.jar"
-3) open link "http://localhost:8080/media?filter=censoring&level='<censored or uncensored>'"
+3) open link "http://localhost:8080/media?filter=censoring&level=censored or uncensored"
 
 
 
