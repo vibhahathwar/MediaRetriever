@@ -1,9 +1,9 @@
+/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/model/Media.java
 /home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/App.java
-/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/Model/Videos.java
-/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/Model/Entries.java
-/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/Provider/ContentProvider.java
-/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/Service/MediaConstant.java
-/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/Service/MediaService.java
-/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/Controller/MediaController.java
-/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/Model/Media.java
-/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/Service/MediaServiceInterface.java
+/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/service/MediaService.java
+/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/service/MediaServiceInterface.java
+/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/provider/ContentProvider.java
+/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/model/Entries.java
+/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/model/Videos.java
+/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/service/MediaConstant.java
+/home/vibha/workspace/starzplay/retrievemedia/src/main/java/com/assignment/controller/MediaController.java

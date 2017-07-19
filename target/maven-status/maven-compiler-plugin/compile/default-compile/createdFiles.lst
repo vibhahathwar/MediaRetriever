@@ -1,9 +1,9 @@
+com/assignment/service/MediaServiceInterface.class
 com/assignment/App.class
-com/assignment/Provider/ContentProvider.class
-com/assignment/Service/MediaServiceInterface.class
-com/assignment/Model/Media.class
-com/assignment/Service/MediaConstant.class
-com/assignment/Model/Videos.class
-com/assignment/Controller/MediaController.class
-com/assignment/Service/MediaService.class
-com/assignment/Model/Entries.class
+com/assignment/model/Media.class
+com/assignment/model/Entries.class
+com/assignment/provider/ContentProvider.class
+com/assignment/controller/MediaController.class
+com/assignment/service/MediaService.class
+com/assignment/service/MediaConstant.class
+com/assignment/model/Videos.class

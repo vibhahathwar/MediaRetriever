@@ -11,10 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.assignment.Model.Entries;
-import com.assignment.Model.Media;
-import com.assignment.Model.Videos;
-import com.assignment.Service.MediaService;
+import com.assignment.model.Entries;
+import com.assignment.model.Media;
+import com.assignment.model.Videos;
+import com.assignment.service.MediaService;
 import com.assignment.App;
 import static org.hamcrest.CoreMatchers.*;
 

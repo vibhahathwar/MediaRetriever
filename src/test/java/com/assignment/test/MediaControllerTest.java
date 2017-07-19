@@ -13,12 +13,12 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.mockito.MockitoAnnotations.Mock;
 
-import com.assignment.Controller.MediaController;
-import com.assignment.Model.Entries;
-import com.assignment.Model.Media;
-import com.assignment.Model.Videos;
-import com.assignment.Provider.ContentProvider;
-import com.assignment.Service.MediaService;
+import com.assignment.controller.MediaController;
+import com.assignment.model.Entries;
+import com.assignment.model.Media;
+import com.assignment.model.Videos;
+import com.assignment.provider.ContentProvider;
+import com.assignment.service.MediaService;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 
