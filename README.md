@@ -6,7 +6,6 @@ The project consists ContentProvider class which retrieves json data from the ex
 MediaController class is a controller class and MediaService class consists actual logic to filter the media contents.
 
 
-
 How to run:
 
 1) Copy retrievmedia-0.0.1-SNAPSHOT.jar from the target folder.
